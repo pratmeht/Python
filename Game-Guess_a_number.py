@@ -1,4 +1,4 @@
-## Writing a Guess the Number game
+## Code for "Guess the Number" game
 def numGame():
     import random
     print()
