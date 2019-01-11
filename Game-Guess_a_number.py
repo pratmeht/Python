@@ -1,4 +1,6 @@
-## Code for "Guess the Number" game
+## Code for "Guess the Number" game# Creating a method 'mainFn' will be an interface for user interaction
+
+# Creating a method 'numGame' which contains the code of Number Game
 def numGame():
     import random
     print()
@@ -20,6 +22,7 @@ def numGame():
     print()
     print('Congratulations ' +name+ '! You guessed it right in ' + str(n) + ' trials')
 
+# Creating a method 'mainFn' will be an interface for user interaction post 1st game
 def mainFn():
     numGame()
     while True:
@@ -33,5 +36,6 @@ def mainFn():
         else:
             print('Hey ' + name+ ', it is an invalid choice')
 
+# Calling a main function
 name = input('Your name please: ')
 mainFn()
